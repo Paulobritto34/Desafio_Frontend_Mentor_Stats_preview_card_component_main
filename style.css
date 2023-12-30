@@ -1,68 +1,3 @@
-body {
-    background-color: hsl(233, 47%, 7%);
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-}
-
-.conteiner {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 1050px;
-    height: 447px;
-    background-color: hsl(244, 38%, 16%);
-    margin: 19vh auto 50px;
-    border-radius: 20px;
-}
-
-
-.conteiner_central {
-    color: hsl(0, 0%, 100%);
-    text-align: left;
-    padding: 35px;
-    align-items: center;
-}
-p {
-    color: hsla(0, 0%, 100%, 0.75);
-}
-
-span {
-    font-weight: bold;
-    color: hsl(277, 64%, 61%);
-}
-
-.conteiner_num {
-    font-family: 'Lexend Deca', sans-serif;
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    margin-top: 40px;
-    
-}
-.conteiner_num div {
-    margin-right: 30px;
-}
-
-.conteiner_num h4 {
-    font-weight: normal;
-    font-size: 16px;
-}
-
-.img {
-    margin: 0;
-    padding: 0;
-    margin-bottom: -3px;
-}
-.fundo {
-    background:  hsla(276, 42%, 38%, 0.6);
-    width: 540px;
-    height: 446px;
-    position: absolute;
-    z-index: 99;
-    border-top-right-radius:  20px;
-    border-bottom-right-radius:  20px;
-}
-
 
 @media (min-width:0px) and (max-width:375px) {
     body {
@@ -127,8 +62,68 @@ span {
 }
 
 @media (min-width:376px) {
-
+    
     img {
+        border-top-right-radius:  20px;
+        border-bottom-right-radius:  20px;
+    }
+
+    body {
+        background-color: hsl(233, 47%, 7%);
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+    }
+    
+    .conteiner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1050px;
+        height: 447px;
+        background-color: hsl(244, 38%, 16%);
+        margin: 19vh auto 50px;
+        border-radius: 20px;
+    }
+    
+    
+    .conteiner_central {
+        color: hsl(0, 0%, 100%);
+        text-align: left;
+        padding: 35px;
+        align-items: center;
+    }
+    p {
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    span {
+        font-weight: bold;
+        color: hsl(277, 64%, 61%);
+    }
+    
+    .conteiner_num {
+        font-family: 'Lexend Deca', sans-serif;
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-top: 40px;
+        
+    }
+    .conteiner_num div {
+        margin-right: 30px;
+    }
+    
+    .conteiner_num h4 {
+        font-weight: normal;
+        font-size: 16px;
+    }
+    
+    .fundo {
+        background:  hsla(276, 42%, 38%, 0.6);
+        width: 540px;
+        height: 446px;
+        position: absolute;
+        z-index: 99;
         border-top-right-radius:  20px;
         border-bottom-right-radius:  20px;
     }
